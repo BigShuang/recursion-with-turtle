@@ -5,10 +5,9 @@ import turtle
 # ==============
 #  常量设置
 # ==============
-# 基本
-BasePL=10 
-TowerP=5
-TowerW=100
+BasePL=10   # plate的大小基数，修改这个能够调整plate的大小
+TowerP=5    # Tower的线宽
+TowerW=100  # 
 TowerH=300
 TowerSpace=300
 HORIZON=-100
