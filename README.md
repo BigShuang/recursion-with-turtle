@@ -2,6 +2,8 @@
 python使用turtle库展现递归
 - Sierpinski Triangle
 - HanoiTower
+> 最初的思路来自一本关于python的算法书籍：
+> [Problem Solving with Algorithms and Data Structures using Python](http://interactivepython.org/runestone/static/pythonds/index.html)
 
 ### Sierpinski Triangle-谢尔宾斯基三角形
 python3 版本完成
