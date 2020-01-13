@@ -6,7 +6,7 @@ import time
 # ==============
 #  常量设置
 # ==============
-PILENUM=7
+PILENUM=3
 
 BasePL=12   # plate的大小基数，修改这个能够调整plate的大小
 TowerP=5    # Tower的线宽
@@ -15,7 +15,7 @@ TowerH=200
 TowerSpace=260
 HORIZON=-100
 # 5是比较适中的速度
-PMS=8
+PMS = 1
 
 # 优化处理
 Isjump=True
@@ -41,6 +41,7 @@ SCR=turtle.Screen()
 # SCR.tracer()
 SCR.delay(1)
 SCR.setup(800,600)
+
 
 def init_plate(pi=0):
     _pi=pi+2
@@ -138,7 +139,7 @@ def get_plates(pn=4):
 
 def show_towers():
     init_tower()
-    for tx in [-TowerSpace,0,TowerSpace]:
+    for tx in [-TowerSpace, 0, TowerSpace]:
         t3 = turtle.Turtle('tower')
         t3.penup()
         t3.goto(tx,HORIZON)
@@ -166,5 +167,4 @@ if __name__ == '__main__':
     SCR.onclick(main)
     # test1()
     turtle.done()
-
     pass

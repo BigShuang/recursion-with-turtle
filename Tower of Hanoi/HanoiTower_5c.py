@@ -125,7 +125,7 @@ def show_towers():
         t3 = turtle.Turtle('tower')
         t3.penup()
         t3.goto(tx,HORIZON)
-        print t3.pos()
+        # print t3.pos()
 
 
 if __name__ == '__main__':
